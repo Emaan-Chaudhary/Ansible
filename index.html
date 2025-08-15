@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Cool Static Page</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #333;
+    }
+
+    /* Header / Hero */
+    header {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    /* Cards Section */
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 50px 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      padding: 30px;
+      width: 250px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      color: #2575fc;
+    }
+
+    .card p {
+      font-size: 0.95em;
+      color: #666;
+    }
+
+    /* Footer */
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    footer a {
+      color: #6a11cb;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header>
+    <h1>Welcome to My Cool Page</h1>
+    <p>Simple, clean, and stylish static HTML design</p>
+  </header>
+
+  <!-- Cards Section -->
+  <section class="cards">
+    <div class="card">
+      <h3>Fast Performance</h3>
+      <p>Optimized design ensures fast loading times and smooth browsing experience.</p>
+    </div>
+    <div class="card">
+      <h3>Responsive Design</h3>
+      <p>Looks amazing on any device: desktop, tablet, or mobile.</p>
+    </div>
+    <div class="card">
+      <h3>Easy to Customize</h3>
+      <p>Modify colors, text, and layout easily to match your style.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Made with ❤️ by <a href="#https://bit.ly/emaan">Your Name</a></p>
+  </footer>
+
+</body>
+</html>
+
